@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_event_section_7_venue_infos",
+  "info": {
+    "displayName": "Section 7 Venue Info",
+    "icon": "pinMap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "venueImg": {
+      "type": "string"
+    },
+    "venueHost": {
+      "type": "string"
+    },
+    "venueLocation": {
+      "type": "string"
+    },
+    "venueAttention": {
+      "type": "string"
+    },
+    "venueInfo": {
+      "type": "text"
+    },
+    "venuePhoneImg": {
+      "type": "string"
+    },
+    "venuePhoneImg2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "venuePhone": {
+      "type": "string"
+    },
+    "venueWebsiteLinkImg": {
+      "type": "string"
+    },
+    "venueWebsiteLinkImg2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "venueWebsiteLink": {
+      "type": "string"
+    },
+    "venueWebsite": {
+      "type": "string"
+    }
+  }
+}

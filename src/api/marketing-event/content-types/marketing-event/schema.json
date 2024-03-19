@@ -1,0 +1,116 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marketing_events",
+  "info": {
+    "singularName": "marketing-event",
+    "pluralName": "marketing-events",
+    "displayName": "Marketing Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "section0": {
+      "displayName": "Section 0 Hero",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-0-hero",
+      "required": true
+    },
+    "section1": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-1-links"
+    },
+    "section2": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-2-sponsors-and-summary"
+    },
+    "section4": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-4-event-schedule-and-start-times"
+    },
+    "section5": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-5-additional-info"
+    },
+    "section6": {
+      "displayName": "Section 6 ",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-6"
+    },
+    "section7": {
+      "displayName": "Section 7 Venue Info",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-7-venue-info"
+    },
+    "section8": {
+      "displayName": "Section 8 View Hotels",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-8-view-hotels"
+    },
+    "section9": {
+      "displayName": "Section 9 Show Shootout",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-9-show-shootout"
+    }
+  }
+}

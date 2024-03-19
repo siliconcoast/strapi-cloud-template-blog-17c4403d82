@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_event_section_2_sponsors_and_summaries",
+  "info": {
+    "displayName": "Section 2 Sponsors & Summary",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sponsorLogos": {
+      "displayName": "Sponsor Logos",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.sponsor-logos"
+    },
+    "eventTitle": {
+      "type": "string"
+    },
+    "eventDates": {
+      "type": "string"
+    },
+    "eventLocation": {
+      "type": "string"
+    },
+    "eventHost": {
+      "type": "string"
+    },
+    "eventPayout": {
+      "type": "string"
+    },
+    "eventAttention": {
+      "type": "string"
+    },
+    "eventInfo": {
+      "type": "text"
+    },
+    "locationLogo": {
+      "type": "string"
+    },
+    "locationLogo2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "eventHostLogo": {
+      "type": "string"
+    },
+    "eventHostLogo2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

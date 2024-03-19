@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_event_details",
+  "info": {
+    "displayName": "Event Detail",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "detailTitle": {
+      "type": "string"
+    },
+    "eventDetails": {
+      "type": "blocks"
+    }
+  }
+}

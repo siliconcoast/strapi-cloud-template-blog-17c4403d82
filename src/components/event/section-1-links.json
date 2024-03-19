@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_event_section_1_links",
+  "info": {
+    "displayName": "Section 1 Links",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "eventRegisterLink": {
+      "type": "string"
+    },
+    "eventPreviewLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "eventBracketsLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "eventScorezoneLink": {
+      "type": "string"
+    },
+    "eventWatchLink": {
+      "type": "string"
+    },
+    "eventResultsLink": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

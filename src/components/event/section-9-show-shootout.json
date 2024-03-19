@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_event_section_9_show_shootouts",
+  "info": {
+    "displayName": "Section 9 Show Shootout",
+    "icon": "moon"
+  },
+  "options": {},
+  "attributes": {
+    "showShootOutSection": {
+      "type": "boolean"
+    }
+  }
+}

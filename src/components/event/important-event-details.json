@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_important_event_details",
+  "info": {
+    "displayName": "Important Event Details",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "eventDetail": {
+      "displayName": "Event Detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event-detail"
+    }
+  }
+}
