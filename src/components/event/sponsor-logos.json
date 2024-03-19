@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_event_sponsor_logos",
+  "info": {
+    "displayName": "Sponsor Logos",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

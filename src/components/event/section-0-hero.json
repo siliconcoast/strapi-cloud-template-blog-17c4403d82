@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_event_section_0_heroes",
+  "info": {
+    "displayName": "Section 0 Hero",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showSection": {
+      "type": "boolean"
+    },
+    "eventName": {
+      "type": "string"
+    },
+    "eventPayout": {
+      "type": "string"
+    },
+    "eventLocation": {
+      "type": "string"
+    },
+    "eventDates": {
+      "type": "string"
+    },
+    "eventHost": {
+      "type": "string"
+    },
+    "backgroundImageURL": {
+      "type": "string"
+    },
+    "showRegistrationButton": {
+      "type": "boolean"
+    },
+    "eventCountryImg": {
+      "type": "string"
+    },
+    "resultsUrl": {
+      "type": "string"
+    }
+  }
+}

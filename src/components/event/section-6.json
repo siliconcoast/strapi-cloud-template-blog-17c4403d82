@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_event_section_6_s",
+  "info": {
+    "displayName": "Section 6 ",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "additionalInfoHeader1": {
+      "type": "string"
+    },
+    "additionalInfoHeader2": {
+      "type": "string"
+    },
+    "additionalInfoHeader3": {
+      "type": "string"
+    }
+  }
+}

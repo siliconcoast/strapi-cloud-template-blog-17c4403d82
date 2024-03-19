@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_section_4_event_schedule_and_start_times",
+  "info": {
+    "displayName": "Section 4 Event Schedule & Start Times",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "dailySchedule": {
+      "displayName": "Daily Schedules",
+      "type": "component",
+      "repeatable": false,
+      "component": "event.daily-schedules"
+    }
+  }
+}

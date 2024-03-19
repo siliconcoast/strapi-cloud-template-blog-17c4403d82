@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_event_section_5_additional_infos",
+  "info": {
+    "displayName": "Section 5 Additional Info",
+    "icon": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tournamentDirectorImg": {
+      "type": "string"
+    },
+    "tournamentDirectorName": {
+      "type": "string"
+    },
+    "tournamentDirectorEmail": {
+      "type": "string"
+    },
+    "tournamentInfo": {
+      "type": "string"
+    },
+    "importantEventDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.event-detail"
+    }
+  }
+}

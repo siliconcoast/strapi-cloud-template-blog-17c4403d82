@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_daily_schedule_days",
+  "info": {
+    "displayName": "Daily Schedule Day",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "eventHeader": {
+      "type": "string"
+    },
+    "daySchedule": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_event_daily_schedules",
+  "info": {
+    "displayName": "Daily Schedules",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "displayName": "Daily Schedule Day",
+      "type": "component",
+      "repeatable": true,
+      "component": "event.daily-schedule-day"
+    }
+  }
+}
