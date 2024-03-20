@@ -1009,6 +1009,12 @@ export interface ApiMarketingEventMarketingEvent extends Schema.CollectionType {
           localized: true;
         };
       }>;
+    section4: Attribute.Component<'event.section-4-event-schedule'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     section5: Attribute.Component<'event.section-5-additional-info'> &
       Attribute.SetPluginOptions<{
         i18n: {
