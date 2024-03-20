@@ -106,12 +106,12 @@ export interface EventSection2SponsorsAndSummary extends Schema.Component {
   };
 }
 
-export interface EventSection4EventScheduleAndStartTimes
-  extends Schema.Component {
-  collectionName: 'components_event_section_4_event_schedule_and_start_times';
+export interface EventSection4EventSchedule extends Schema.Component {
+  collectionName: 'components_event_section_4_event_schedules';
   info: {
-    displayName: 'Section 4 Event Schedule & Start Times';
-    icon: 'calendar';
+    displayName: 'Section 4 Event Schedule';
+    icon: 'clock';
+    description: '';
   };
   attributes: {
     dailySchedule: Attribute.Component<'event.daily-schedules'>;
@@ -291,7 +291,7 @@ declare module '@strapi/types' {
       'event.section-0-hero': EventSection0Hero;
       'event.section-1-links': EventSection1Links;
       'event.section-2-sponsors-and-summary': EventSection2SponsorsAndSummary;
-      'event.section-4-event-schedule-and-start-times': EventSection4EventScheduleAndStartTimes;
+      'event.section-4-event-schedule': EventSection4EventSchedule;
       'event.section-5-additional-info': EventSection5AdditionalInfo;
       'event.section-6': EventSection6;
       'event.section-7-venue-info': EventSection7VenueInfo;

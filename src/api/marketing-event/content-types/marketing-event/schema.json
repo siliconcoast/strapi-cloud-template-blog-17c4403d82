@@ -48,16 +48,6 @@
       },
       "component": "event.section-2-sponsors-and-summary"
     },
-    "section4": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "event.section-4-event-schedule-and-start-times"
-    },
     "section5": {
       "type": "component",
       "repeatable": false,
