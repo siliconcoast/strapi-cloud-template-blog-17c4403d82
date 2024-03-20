@@ -48,6 +48,16 @@
       },
       "component": "event.section-2-sponsors-and-summary"
     },
+    "section4": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.section-4-event-schedule"
+    },
     "section5": {
       "type": "component",
       "repeatable": false,
@@ -59,7 +69,6 @@
       "component": "event.section-5-additional-info"
     },
     "section6": {
-      "displayName": "Section 6 ",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -70,7 +79,6 @@
       "component": "event.section-6"
     },
     "section7": {
-      "displayName": "Section 7 Venue Info",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -81,7 +89,6 @@
       "component": "event.section-7-venue-info"
     },
     "section8": {
-      "displayName": "Section 8 View Hotels",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -92,7 +99,6 @@
       "component": "event.section-8-view-hotels"
     },
     "section9": {
-      "displayName": "Section 9 Show Shootout",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
