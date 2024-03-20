@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_event_section_4_event_schedule_and_start_times",
+  "collectionName": "components_event_section_4_event_schedules",
   "info": {
-    "displayName": "Section 4 Event Schedule & Start Times",
-    "icon": "calendar"
+    "displayName": "Section 4 Event Schedule",
+    "icon": "clock",
+    "description": ""
   },
   "options": {},
   "attributes": {
