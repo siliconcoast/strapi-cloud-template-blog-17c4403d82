@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "hotelMultipleAclHotels": {
-      "type": "string"
+      "type": "text"
     },
     "hotelImg": {
       "type": "string"

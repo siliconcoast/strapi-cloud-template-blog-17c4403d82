@@ -191,7 +191,7 @@ export interface EventSection8ViewHotels extends Schema.Component {
     description: '';
   };
   attributes: {
-    hotelMultipleAclHotels: Attribute.String;
+    hotelMultipleAclHotels: Attribute.Text;
     hotelImg: Attribute.String;
     hotelName: Attribute.String;
     hotelAddress: Attribute.String;
