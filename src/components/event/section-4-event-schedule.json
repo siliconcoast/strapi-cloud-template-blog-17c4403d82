@@ -8,10 +8,9 @@
   "options": {},
   "attributes": {
     "dailySchedule": {
-      "displayName": "Daily Schedules",
       "type": "component",
-      "repeatable": false,
-      "component": "event.daily-schedules"
+      "repeatable": true,
+      "component": "event.daily-schedule-day"
     }
   }
 }

@@ -128,7 +128,7 @@ export interface EventSection4EventSchedule extends Schema.Component {
     description: '';
   };
   attributes: {
-    dailySchedule: Attribute.Component<'event.daily-schedules'>;
+    dailySchedule: Attribute.Component<'event.daily-schedule-day', true>;
   };
 }
 
