@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_event_event_details_2s",
+  "info": {
+    "displayName": "Event Details 2",
+    "icon": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "detailTitle": {
+      "type": "string"
+    },
+    "eventDetails": {
+      "type": "blocks"
+    }
+  }
+}

@@ -107,6 +107,17 @@
         }
       },
       "component": "event.section-9-show-shootout"
+    },
+    "section5a": {
+      "displayName": "Event Details 2",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "event.event-details-2"
     }
   }
 }

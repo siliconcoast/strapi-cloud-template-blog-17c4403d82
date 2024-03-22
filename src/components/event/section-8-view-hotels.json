@@ -25,33 +25,11 @@
     "hotelPhoneImg": {
       "type": "string"
     },
-    "hotelPhoneImg2": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "hotelPhone": {
       "type": "string"
     },
     "hotelWebsiteLinkImg": {
       "type": "string"
-    },
-    "hotelWebsiteLinkImg2": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "hotelWebsiteLink": {
       "type": "string"
