@@ -2,11 +2,12 @@
   "collectionName": "components_event_important_event_details",
   "info": {
     "displayName": "Important Event Details",
-    "icon": "information"
+    "icon": "information",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "eventDetail": {
+    "eventDetails": {
       "displayName": "Event Detail",
       "type": "component",
       "repeatable": true,

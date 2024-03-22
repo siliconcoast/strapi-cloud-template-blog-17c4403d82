@@ -17,12 +17,7 @@
       "type": "string"
     },
     "tournamentInfo": {
-      "type": "string"
-    },
-    "importantEventDetails": {
-      "type": "component",
-      "repeatable": true,
-      "component": "event.event-detail"
+      "type": "text"
     }
   }
 }

@@ -35,14 +35,28 @@ export interface EventEventDetail extends Schema.Component {
   };
 }
 
+export interface EventEventDetails2 extends Schema.Component {
+  collectionName: 'components_event_event_details_2s';
+  info: {
+    displayName: 'Event Details 2';
+    icon: 'information';
+    description: '';
+  };
+  attributes: {
+    detailTitle: Attribute.String;
+    eventDetails: Attribute.Blocks;
+  };
+}
+
 export interface EventImportantEventDetails extends Schema.Component {
   collectionName: 'components_event_important_event_details';
   info: {
     displayName: 'Important Event Details';
     icon: 'information';
+    description: '';
   };
   attributes: {
-    eventDetail: Attribute.Component<'event.event-detail', true>;
+    eventDetails: Attribute.Component<'event.event-detail', true>;
   };
 }
 
@@ -129,8 +143,7 @@ export interface EventSection5AdditionalInfo extends Schema.Component {
     tournamentDirectorImg: Attribute.String;
     tournamentDirectorName: Attribute.String;
     tournamentDirectorEmail: Attribute.String;
-    tournamentInfo: Attribute.String;
-    importantEventDetails: Attribute.Component<'event.event-detail', true>;
+    tournamentInfo: Attribute.Text;
   };
 }
 
@@ -184,10 +197,8 @@ export interface EventSection8ViewHotels extends Schema.Component {
     hotelAddress: Attribute.String;
     hotelInfo: Attribute.Text;
     hotelPhoneImg: Attribute.String;
-    hotelPhoneImg2: Attribute.Media;
     hotelPhone: Attribute.String;
     hotelWebsiteLinkImg: Attribute.String;
-    hotelWebsiteLinkImg2: Attribute.Media;
     hotelWebsiteLink: Attribute.String;
     hotelWebsite: Attribute.String;
     hotelBookNow: Attribute.String;
@@ -287,6 +298,7 @@ declare module '@strapi/types' {
       'event.daily-schedule-day': EventDailyScheduleDay;
       'event.daily-schedules': EventDailySchedules;
       'event.event-detail': EventEventDetail;
+      'event.event-details-2': EventEventDetails2;
       'event.important-event-details': EventImportantEventDetails;
       'event.section-0-hero': EventSection0Hero;
       'event.section-1-links': EventSection1Links;
